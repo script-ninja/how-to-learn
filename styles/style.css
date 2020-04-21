@@ -10,11 +10,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* Ссылки*/
-.link-icon_arrow:after {
-  content: ' \2192'
-}
-
 /* Логотипы */
 .logo {
   background-position: center;
@@ -150,11 +145,10 @@
   text-decoration: none;
 }
 
-/* Сделано в виде общего миксового класса для ссылок
+/* декоративная стрелка для ссылки */
 .header__link:after {
   content: ' \2192';
 }
-*/
 
 .header__link:hover {
   text-decoration: underline;
@@ -302,11 +296,10 @@
   text-decoration: none;
 }
 
-/* Сделано в виде общего миксового класса для ссылок
+/* декоративная стрелка для ссылки */
 .feynman__link:after {
   content: ' \2192';
 }
-*/
 
 .feynman__link:hover {
   color: #2f80ed;
@@ -325,7 +318,7 @@
   justify-content: center;
   align-items: center;
 
-  background-color: #000;
+  background-color: #1f1f1f;
   overflow: hidden;
 }
 
@@ -348,17 +341,19 @@
 
 /* => START (footer) */
 .footer {
-  border-top: 1px solid #1f1f1f;
+  border-top: 1px solid #2f2f2f;
   padding: 60px 0 40px;
-  min-height: 240px;
+  min-height: 350px;
 
   display: flex;
   justify-content: center;
 
-  background-color: #000;
+  background-color: #1f1f1f;
 
   color: #fff;
 }
+
+/* logo в COMMON STYLES */
 
 .footer__columns {
   display: flex;
@@ -367,7 +362,12 @@
   width: 90%;
 }
 
-.footer__column_copyright {
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -377,8 +377,6 @@
   font-size: 18px;
   font-weight: 400;
 }
-
-/* logo в COMMON STYLES */
 
 .footer__author {
   margin: 18px 0;
@@ -394,9 +392,8 @@
 
 .footer__column-links {
   margin: 0 0 16px;
-
-  display: flex;
-  flex-direction: column;
+  padding: 0;
+  list-style-type: none;
 
   line-height: 30px;
   font-size: 18px;
