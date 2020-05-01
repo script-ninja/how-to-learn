@@ -1,0 +1,15 @@
+/* Так как фигура изначально должна быть повернута на 15 градусов против часовой,
+ * то понадобился модификатор, чтобы это учесть и начинать анимацию из начальной позиции фигуры.
+ */
+@keyframes rotation_elem_header-square-pic {
+  0% {
+    transform: rotate(-15deg);
+  }
+  100% {
+    transform: rotate(345deg);
+  }
+}
+
+.rotation_elem_header-square-pic {
+  animation-name: rotation_elem_header-square-pic;
+}

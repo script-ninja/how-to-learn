@@ -1,0 +1,15 @@
+@import url(_place/logo_place_footer.css);
+@import url(_place/logo_place_header.css);
+
+
+.logo {
+  display: block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: opacity 0.2s ease;
+}
+
+.logo:hover {
+  opacity: 0.5;
+}

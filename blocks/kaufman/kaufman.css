@@ -1,0 +1,20 @@
+@import url(__triangle/kaufman__triangle.css);
+
+
+.kaufman {
+  z-index: 0;
+  padding: 90px 0;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #1f1f1f;
+  overflow: hidden;
+}
+
+.kaufman .section-title {
+  margin-bottom: 20px;
+}

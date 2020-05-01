@@ -1,0 +1,16 @@
+.digits {
+  padding: 100px 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.digits .section-title {
+  margin-bottom: 20px;
+}
+
+.digits .table__cell {
+  margin-top: 60px;
+}

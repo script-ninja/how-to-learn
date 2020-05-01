@@ -1,0 +1,7 @@
+.table__cell {
+  width: 250px;
+}
+
+.table__cell > *:not(:last-child) {
+  margin-bottom: 20px;
+}
