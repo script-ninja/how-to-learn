@@ -7,6 +7,9 @@
 @import url(__social-icon/footer__social-icon.css);
 
 /* модификаторы */
+@import url(__column/_content/footer__column_content_copyright.css);
+@import url(__column/_content/footer__column_content_info.css);
+@import url(__column/_content/footer__column_content_social.css);
 @import url(__social-icon/_type/footer__social-icon_type_facebook.css);
 @import url(__social-icon/_type/footer__social-icon_type_instagram.css);
 @import url(__social-icon/_type/footer__social-icon_type_vkontakte.css);
